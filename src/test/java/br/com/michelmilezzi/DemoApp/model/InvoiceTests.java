@@ -27,4 +27,9 @@ public class InvoiceTests {
         assertThat(invoice.getTotal()).isEqualByComparingTo(BigDecimal.valueOf(30));
     }
 
+    @Test
+    public void calcularQualquerCoisa() {
+        assertThat(Boolean.TRUE).isEqualTo(Boolean.TRUE);
+    }
+
 }
